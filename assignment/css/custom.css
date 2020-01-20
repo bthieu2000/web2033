@@ -1,0 +1,39 @@
+.container a{
+	text-decoration: none;
+}
+.searching {
+	background: silver;
+	padding: 0.3rem;
+}
+.searching .container-fluid .container .form-inline .btn{
+	background-color: white;
+}
+.form-inline .form-control{
+	width: 35rem !important;
+}
+footer .container-fluid{
+	position: relative;
+}
+footer .ft-banner{
+	width: 100%;
+	height: 300px;
+	background: orange;
+}
+.col-3 .d-block p{
+	word-wrap: break-word;
+	word-break: keep-all;
+	font-size: 15px;
+}
+.social-contact{
+	padding-left:1rem;
+	padding-bottom: 1rem;
+}
+footer .container .row .ft-collum a{
+	padding-bottom: 1rem;
+	display: block;
+	color: black;
+	font-size: 16px;
+}
+footer .container .row .col-2 .store a {
+	padding: 0;
+}

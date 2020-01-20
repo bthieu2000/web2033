@@ -9,7 +9,7 @@
 	background-color: white;
 }
 .form-inline .form-control{
-	width: 35rem !important;
+	width: auto !important;
 }
 footer .container-fluid{
 	position: relative;

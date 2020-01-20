@@ -30,16 +30,15 @@
 				</div>
 			</div>
 			<div class="container-fluid border-top">
-				<div class="container-md">
+				<div class="container">
 					<div class="d-flex justify-content-between">
 						<div class="p-2 bd-highlight">
 							<h1 class="p-4"><a href="#" style="display: block;color: black;">MODUS</a></h1>
 						</div>
 						<div class="p-2 bd-highlight"></div>
 						<div class="p-2 bd-highlight">
-							<nav class="navbar navbar-expand-lg navbar-light navbar-default">
-							  <div class="collapse navbar-collapse" id="navbarNav">
-							    <ul class="navbar-nav p-4">
+							<nav class="navbar navbar-expand-sm navbar-light">
+							  <ul class="navbar-nav p-4">
 							      <li class="nav-item active pr-3">
 							        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
 							      </li>
@@ -65,7 +64,6 @@
 							      	<a href="#"><img src="img/logo-cart-png-3.png" width="40rem"></a>
 							      </li>
 							    </ul>
-							  </div>
 							</nav>
 						</div>
 					</div>

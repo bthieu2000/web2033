@@ -5,14 +5,14 @@
 	background: silver;
 	padding: 0.3rem;
 }
-.searching .container-fluid .container .form-inline .btn{
-	background-color: white;
+.searching .container .form-inline .form-control{
+	width: 60% !important;
+}
+.searching .container .form-inline .btn{
+	background-color: white !important;
 }
 .form-inline .form-control{
 	width: auto !important;
-}
-footer .container-fluid{
-	position: relative;
 }
 footer .ft-banner{
 	width: 100%;

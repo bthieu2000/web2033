@@ -33,62 +33,63 @@
 				<div class="container">
 					<div class="d-flex justify-content-between">
 						<div class="p-2 bd-highlight">
-							<h1 class="p-4"><a href="#" style="display: block;color: black;">MODUS</a></h1>
+							<h1 class="p-md-1 p-sm-1 p-4"><a href="#" style="display: block;color: black;">MODUS</a></h1>
 						</div>
 						<div class="p-2 bd-highlight"></div>
 						<div class="p-2 bd-highlight">
-							<nav class="navbar navbar-expand-sm navbar-light">
-							  <ul class="navbar-nav p-4">
-							      <li class="nav-item active pr-3">
-							        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-							      </li>
-							      <li class="nav-item pr-3">
-							        <a class="nav-link " href="#">CATEGORIES</a>
-							      </li>
-							      <li class="nav-item pr-3">
-							        <a class="nav-link" href="#">DEALS</a>
-							      </li>
-							      <li class="nav-item pr-3">
-							        <a class="nav-link" href="#">ACCESSORIES</a>
-							      </li>
-							      <li class="nav-item pr-3">
-							        <a class="nav-link" href="#">BLOG</a>
-							      </li>
-							      <li class="nav-item pr-3">
-							        <a class="nav-link" href="#">CONTACT</a>
-							      </li>
-							      <li class="nav-item pr-3 mt-2">
-							      	<a href="#"><img src="img/account.png" width="30rem"></a>
-							      </li>
-							      <li class="nav-item pr-3 mt-1">
-							      	<a href="#"><img src="img/logo-cart-png-3.png" width="40rem"></a>
-							      </li>
-							    </ul>
+							<nav class="navbar navbar-expand-sm navbar-light mr-auto">
+								<button class="navbar-toggler mt-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul class="navbar-nav p-4 p-md-1 p-sm-1">
+								      <li class="nav-item active">
+								        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+								      </li>
+								      <li class="nav-item">
+								        <a class="nav-link " href="#">CATEGORIES</a>
+								      </li>
+								      <li class="nav-item">
+								        <a class="nav-link" href="#">DEALS</a>
+								      </li>
+								      <li class="nav-item">
+								        <a class="nav-link" href="#">ACCESSORIES</a>
+								      </li>
+								      <li class="nav-item">
+								        <a class="nav-link" href="#">BLOG</a>
+								      </li>
+								      <li class="nav-item">
+								        <a class="nav-link" href="#">CONTACT</a>
+								      </li>
+								      <li class="nav-item mt-1 mx-3 mx-md-1 mx-sm-1">
+								      	<a href="#"><img src="img/account.png" width="30rem"></a>
+								      </li>
+								      <li class="nav-item">
+								      	<a href="#"><img src="img/logo-cart-png-3.png" width="40rem"></a>
+								      </li>
+								    </ul>
+								</div>
 							</nav>
 						</div>
 					</div>
 				</div>
 				<section class="searching">
-					<div class="container-fluid">
-						<div class="container">
-						  	<form class="form-inline">
-							    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-								<select class="custom-select ml-1">
-									<option selected>All categories</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-								<div class="pl-2 pr-3">
-									<img src="img/49775.png" width="50rem">
-								</div>
-								<div class="">
-									<p class="h6"><strong>SUPPORT 24/7</strong></p>
-							     	<label>Hotline:+08 888 888</label>
-								</div>
-						  	</form>
-						</div>
+					<div class="container">
+					  	<form class="form-inline">
+						    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" width="100rem">
+						    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+							<select class="custom-select ml-2">
+								<option selected>All categories</option>
+								<option value="1">One</option>
+								<option value="2">Two</option>
+								<option value="3">Three</option>
+							</select>
+							<div class="pl-4">
+								<img src="img/49775.png" width="50rem">
+								<p class="h6"><strong>SUPPORT 24/7</strong></p>
+						     	<label>Hotline:+08 888 888</label>
+							</div>
+					  	</form>
 					</div>
 				</section>
 			</div>
